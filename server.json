@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/contasimples-mcp",
+  "title": "Conta Simples",
+  "description": "Business finance on Conta Simples, bank and card statements, corporate cards (list/block/unblock), c",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/contasimples-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_contasimples"
+    }
+  ]
+}
